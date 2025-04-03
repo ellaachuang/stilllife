@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockingjay Pin</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255,255,255);
+    margin: 0;
+}
+
+.images {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(170, 170, 80);
+    clip-path: circle(30% at 50% 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.circleinside {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    clip-path: circle(27% at 50% 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.arrow {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224, 224, 145);
+    clip-path: polygon(11% 78%, 13% 81%, 88% 58%, 89% 60%, 14% 83%, 17% 87%, 3% 85%);    
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    z-index: 2;
+}
+
+.head {
+    width: 40%;
+    height: 40%;
+    background-color: rgb(197, 148, 81);
+    clip-path: polygon(32% 13%, 48% 26%, 45% 45%, 49% 66%, 53% 86%, 42% 75%, 32% 65%, 23% 56%, 14% 44%, 14% 31%);
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    z-index: 3;
+}
+
+.leftwing {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(217, 175, 117);
+    clip-path: polygon(42% 0, 37% 25%, 47% 45%, 55% 62%, 48% 80%, 20% 81%, 16% 64%, 3% 53%, 9% 32%, 20% 12%);
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    z-index: 3;
+}
+
+.rightwing {
+    width: 40%;
+    height: 40%;
+    background-color: rgb(222, 192, 151);
+    clip-path: polygon(71% 35%, 96% 17%, 91% 35%, 77% 66%, 59% 75%, 37% 86%, 6% 95%, 11% 71%, 24% 57%, 54% 41%);
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    z-index: 5;
+}
+
+.body {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(196, 146, 76);
+    clip-path: polygon(52% 48%, 80% 51%, 96% 57%, 100% 70%, 86% 83%, 54% 90%, 17% 86%, 0% 70%, 7% 60%, 22% 53%);
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    z-index: 3;
+}
+
+.tail {
+    width: 40%;
+    height: 40%;
+    background-color: rgb(207, 173, 126);
+    clip-path: polygon(47% 23%, 62% 39%, 67% 62%, 82% 90%, 56% 66%, 43% 62%, 31% 73%, 30% 53%, 31% 34%, 23% 19%);
+    position: absolute;
+    top: 220px;
+    left: 230px;
+    z-index: 2;
+}
+
+
+
+
+   
+    </style>
+</head>
+<body>
+        <div class="circle"></div>
+        <div class="circleinside"></div>
+        <div class="arrow"></div>
+        <div class="head"></div>
+        <div class="leftwing"></div>
+        <div class="rightwing"></div>
+        <div class="body"></div>
+        <div class="tail"></div>
+
+</body>
+</html>
